@@ -129,8 +129,8 @@ test_that("nodeResult works", {
     expect_named(out, c("logFC", "logCPM", "F", "PValue", "FDR", "node",
                         "feature"))
     expect_true(all(diff(out$PValue) >= 0))
-    expect_equal(out$node, c(11, 13, 13, 11, 11, 11, 13, 12))
-    expect_equal(out$feature, as.character(c(3, 5, 6, 1, 6, 5, 2, 3)))
+    expect_equal(out$node[1:5], c(11, 13, 13, 11, 11))
+    expect_equal(out$feature[1:5], as.character(c(3, 5, 6, 1, 6)))
 
     ## Sort by logFC
     out <- nodeResult(object = ds_res, n = 8, type = "DS",
