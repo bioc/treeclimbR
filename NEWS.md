@@ -1,3 +1,7 @@
+# treeclimbR 1.1.1
+
+* Adapt unit tests to limma updates
+
 # treeclimbR 0.99.1
 
 * Add explicit dependency on R
