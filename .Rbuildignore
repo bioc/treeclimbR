@@ -4,3 +4,4 @@
 ^.Rbuildignore$
 ^.gitignore$
 ^\.github$
+_pkgdown.yml
