@@ -56,10 +56,10 @@ The output of \code{\link[edgeR]{glmQLFTest}} or
 \code{\link[edgeR]{glmLRT}} depending on the specified \code{option}.
 }
 \description{
-\code{edgerWrp} is a wrapper using functions from the \code{\link{edgeR}}
-package (Robinson et al. 2010, \emph{Bioinformatics}; McCarthy et al. 2012,
-\emph{Nucleic Acids Research}) to fit models and perform a moderated test for
-each entity.
+\code{edgerWrp} is a wrapper using functions from the
+\code{\link[edgeR:edgeR-package]{edgeR}} package (Robinson et al. 2010,
+\emph{Bioinformatics}; McCarthy et al. 2012, \emph{Nucleic Acids Research})
+to fit models and perform a moderated test for each entity.
 }
 \details{
 The function performs the following steps:

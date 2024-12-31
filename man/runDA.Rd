@@ -91,8 +91,8 @@ A list with entries \strong{edgeR_results}, \strong{tree}, and
 }
 \description{
 Test for differential abundance of entities using functions from
-the \code{\link{edgeR}} package. This adapts \code{\link{edgerWrp}} to
-accept input as a
+the \code{\link[edgeR:edgeR-package]{edgeR}} package. This adapts
+\code{\link{edgerWrp}} to accept input as a
 \code{\link[TreeSummarizedExperiment]{TreeSummarizedExperiment}}
 (TSE) object instead of a \code{matrix}. Features could be
 represented in either rows or columns. By default, features are in the rows.

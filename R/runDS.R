@@ -1,8 +1,8 @@
 #' Test for differential state using edgeR
 #'
 #' Test for differential state of entities using functions from the
-#' \code{\link{edgeR}} package. This adapts \code{\link{edgerWrp}} to accept
-#' input as a
+#' \code{\link[edgeR:edgeR-package]{edgeR}} package. This adapts
+#' \code{\link{edgerWrp}} to accept input as a
 #' \code{\link[SummarizedExperiment]{SummarizedExperiment}} (SE) object
 #' instead of \code{matrix}. Each \code{assay} should correspond to data
 #' for one node of the tree. Samples are in columns and
